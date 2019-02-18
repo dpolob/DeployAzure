@@ -1,0 +1,15 @@
+name: azure
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.5
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pytorch-cpu
+  - torchvision-cpu
+  - pip:
+    - azureml-defaults
+    - azureml-sdk
